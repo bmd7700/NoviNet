@@ -1,0 +1,82 @@
+/*CSS for NoviNet main page*/
+.grid{
+	display: grid;
+	grid-template: 5% 5% 85% 5% / 35% 65%;
+	width: 80%;
+	margin-left: 5%;	
+}
+
+.bluebanner{
+	/*CSS for blue banner bar*/
+	color: blue;
+	grid-area: 1 / 2 / span 1 / span 1;
+	font-family: Arial;
+	font-size: 14px;
+	}
+.purpbanner{
+	/*CSS for purple banner bar*/
+	color: purple;
+	grid-area: 2 / 2 / span 1 / span 1;
+	font-family: Arial;
+	font-size: 14px;
+		}
+.sloganwrapper{
+	grid-area: 3 / 1 / span 1 / span 2;
+	height: 600px;
+	margin-top: 50px;
+	margin-left: 120px;
+	position: center;
+	background: url(background.jpg), linear-gradient(#7a0bc4, #bd7de8);
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	}
+
+.logoplacehold{
+	grid-area: 1 / 1 / span 2 / span 1;
+	padding-left: 120px;
+	}
+
+/*CSS to make link lists in banner bar display properly*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+li {
+	display: inline;
+	float: right;
+	padding: 10px;
+}
+#slogan{
+	font-family: Arial;
+	font-size: 16pt;
+	font-style: oblique;
+	color: white;
+	padding: 10px;
+	margin: 5px;
+	margin-left: 40px;
+	/* text-align: center;*/
+	}
+#logo{
+	font-family: Arial;
+	font-size: 18pt;
+	margin: 5px;
+	padding: 10px;
+	color: #501577;
+}
+.learnmore{
+	grid-area: 3 / 1 / span 2 / span 2;
+	text-align: center;
+	margin-top: 400px;
+		}
+#ctrbtn {
+	font-family: Arial;
+	font-size: 14pt;
+	font-style: oblique;
+	color: white;
+	padding: 10px 50px 10px 50px;
+	border: 1px solid white;
+	border-radius: 2px;
+	background: linear-gradient(#134ead, #3c6bb7);
+	}
